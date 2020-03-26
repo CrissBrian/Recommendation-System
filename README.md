@@ -5,12 +5,12 @@
 ## Item-Based Collaborative Filter
 
 ```
-spark-submit python3 <train> <test> <output>
+spark-submit item_based.py <train> <test> <output>
 ```
 
 
 ## Model-Based Recommendation System
 
 ```
-spark-submit python3 <train> <test> <output>
+spark-submit model_based.py <train> <test> <output>
 ```
