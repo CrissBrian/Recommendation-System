@@ -126,13 +126,3 @@ def main():
 
 if __name__ == '__main__':
 	main()
-
-
-
-	# param = {
-	# 	'eta': 0.1,
-	# 	'max_depth': 3,
-	# 	'objective': 'multi:softprob',
-	# 	'num_class': 5}
-	# steps = 20  # The number of training iterations
-	# model = xgb.train(param, D_train, steps)
